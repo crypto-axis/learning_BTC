@@ -1,0 +1,12 @@
+several types of public keys:
+  - uncompressed (contain both X and Y coordinate of the ecdsa point)
+  - compressed (contain sign of Y and X coordinate)
+  
+several types of address:
+  -pay to public key (p2pk) (can use both compressed/uncompressed public key)
+  -pay to public key (p2pkh) (can use both compressed/uncompressed public key hash)
+  
+  -pay to script hash (p2sh) (can use both compressed/uncompressed public key hash)
+  
+  
+  -segwit
