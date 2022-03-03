@@ -10,5 +10,6 @@
     ffffffff # sequence
 01 # nb of output
     3c19000000000000 #value
-    1976a9145294db2204c27889dd9b7b88ff30cff6c40a62d788ac # script
+    19 # lenght of script
+        76a9145294db2204c27889dd9b7b88ff30cff6c40a62d788ac # script
 00000000 # timelock
