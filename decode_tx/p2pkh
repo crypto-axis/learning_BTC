@@ -1,14 +1,14 @@
 01000000 #version
 01 #nb of input
-0410a792656db6b10c28f2ded1a21f0cdf7cf31200b5a0179b5a254e325438b2 # 1st input hash
-00000000 # input index
-8b # lenght of Scriptsign
-    48 # lenght of signature
-        30450221009f412ed5ca9f2d406636548ec72e660f9f5a31e2325233dcb4164585ec975d8702203ca283c8c031978fbb90b2b99706684dad4a90e9300d0acf74b1f6db80acc1ae01 # signature
-    41 #lenght of public key
-        04292959febef0a3c9ac140cb5a013f174f85a7978838890b196de3028fab725ed1a95cc9f26365f8665d6bbc9619b3f9f06695b4ce45f691b93f57a9f07e28849 #public key
-ffffffff # sequence
+    0410a792656db6b10c28f2ded1a21f0cdf7cf31200b5a0179b5a254e325438b2 # 1st input hash
+    00000000 # input index
+    8b # lenght of Scriptsign
+        48 # lenght of signature
+            30450221009f412ed5ca9f2d406636548ec72e660f9f5a31e2325233dcb4164585ec975d8702203ca283c8c031978fbb90b2b99706684dad4a90e9300d0acf74b1f6db80acc1ae01 # signature
+        41 #lenght of public key
+            04292959febef0a3c9ac140cb5a013f174f85a7978838890b196de3028fab725ed1a95cc9f26365f8665d6bbc9619b3f9f06695b4ce45f691b93f57a9f07e28849 #public key
+    ffffffff # sequence
 01 # nb of output
-3c19000000000000 #value
-1976a9145294db2204c27889dd9b7b88ff30cff6c40a62d788ac # script
+    3c19000000000000 #value
+    1976a9145294db2204c27889dd9b7b88ff30cff6c40a62d788ac # script
 00000000 # timelock
