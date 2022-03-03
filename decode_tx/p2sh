@@ -1,0 +1,43 @@
+#---------------------------------P2SH------------------- 0aeae24fa55544da49ba06ec338c9beee592ab4bea71eb8085908f377dd46084
+
+01000000 # version
+01  # nb of input
+    0bb1ea58f5364f0d810fe3bfc47bbca9044c82eeeebb6e6acae660803612bfa9 # 1st input hash
+    01000000 # input index
+    fdfe00# script lenght 254 (fe???)
+        00 # OP_0
+        48 # signature lenght
+            304502210087de9d36b4980bddcd909fdb163c8661a05010f78c61a429336641a86473c5f6022033eeb8338eeacdc56aea2eaac144f118492c856d459b82281e85b308cc1b86fa01
+        48 # signature lenght
+            3045022100ebe76982f08f3e7bab6357ae51de6ab0089deeb6bebbf2a46fbf1fef4bf4bbf1022058aa3a8e92cf2e19edd9e51e904be947f43c75da02dd933a7004d4bc0a400f8101
+        4c # OP_PUSHDATA1 (REDEEM SCRIPT)
+            69 # lenght
+                52 # OP_2
+                21 # lenght
+                    03385adff37fd3d0a620ebc4e9866e81dda8ba8616e5ebcae899c7f51899267ae7 # public key 1
+                21 # lenght
+                    034c08511718f947d1a3e152195c5e2756588e3e0c2c7730927eb6647af4942107 # public key 2
+                21 # lenght
+                    033da9f8938a5b947a723df21b73fbd3985b719249324d2c705acfb97d63a5df9e # public key 3
+                53 # OP_3
+                ae # OP_CHECKMULTISIG
+    ffffffff # sequence
+04 # nb of output
+    # --------------- output 1 -----------------------
+    e327b10000000000 # value
+    17 # script lenght
+        a9141988a27e3c2df4ddee7fad5a2303d086179b2a3087 # script
+    # --------------- output 2 -----------------------
+    c955010000000000 #value
+    19 # script lenght
+        76a91476a7689c9dd69e63c968ed6effe4799ca2c8baf388ac # script
+    # --------------- output 3 -----------------------
+    8096980000000000
+    19 # script lenght
+        76a9143377e6e7594ac3e68b004f5f18956892ac3177c188ac # script
+    # --------------- output 4 -----------------------
+    78c1020000000000
+    19 # script lenght
+        76a9148bcb83bad585b674369d1db70620ccac8530576e88ac # script
+
+00000000 #timelock
