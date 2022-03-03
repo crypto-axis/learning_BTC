@@ -9,7 +9,7 @@
             04292959febef0a3c9ac140cb5a013f174f85a7978838890b196de3028fab725ed1a95cc9f26365f8665d6bbc9619b3f9f06695b4ce45f691b93f57a9f07e28849 #public key
     ffffffff # sequence
 01 # nb of output
-    3c19000000000000 #value
+    3c19000000000000 # 1st ouput value
     19 # lenght of script
         76a9145294db2204c27889dd9b7b88ff30cff6c40a62d788ac # script
 00000000 # timelock
