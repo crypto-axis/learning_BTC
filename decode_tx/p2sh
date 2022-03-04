@@ -4,7 +4,7 @@
 01  # nb of input
     0bb1ea58f5364f0d810fe3bfc47bbca9044c82eeeebb6e6acae660803612bfa9 # 1st input hash
     01000000 # input index
-    fdfe00# script lenght 254 (fe???)
+    fdfe00# script lenght 254 (fd means scrpit lenght is 2 bytes / little endian)
         00 # OP_0
         48 # signature lenght
             304502210087de9d36b4980bddcd909fdb163c8661a05010f78c61a429336641a86473c5f6022033eeb8338eeacdc56aea2eaac144f118492c856d459b82281e85b308cc1b86fa01
@@ -41,3 +41,37 @@
         76a9148bcb83bad585b674369d1db70620ccac8530576e88ac # script
 
 00000000 #timelock
+
+#------------------------------P2SH------------------------------------- 42ebd83f5db2f19529c5b92b48c90778ca8b89723a3200cc6436144656503fc2
+
+
+01000000 # version
+    01 # nb of input
+    bcdd0aa7b1c875cd0cfd83bb577b4d2bbb1d6db5996e512efe4c0658ebe403ea # 1st input hash
+    01000000 # input index
+    d9 # script lenght
+        00 # OP_0
+        47 # signature lenght
+            304402203863f97369dc9e26921da6e427676886549985c6f9330e1b30854ab32f0463ee0220179dacec87fb93fba143b3f5e2867f299233415df9409fab8bc2dbec98ea8b7701
+        47 # signature lenght
+            30440220380427a77695dd34c7eadd7f3e8d3000335092f8c079baf1efd699da6616330802203dfb2c800958675a7e70bef422a3421bad9c5f8ee8d8979102b67eb86c872fca01
+        47 # script lenght
+            52 # OP_2
+            21 # pubkey lenght
+                0352ccd0bca85b7986d98ba68cab765aa36e5b49421e08bb8f9a9176eccd7b605c
+            21 # pubkey lenght
+                03ec106f147e75c0effb610cd42d4d229ac5cf24c0b55ae569404dbab880f7f1f9
+            52  # OP_2
+            ae  # OP_CHECKSIG
+    ffffffff
+02
+    # --------------------- 1st output --------------------
+    c05d000000000000 # value
+    19 # script lenght
+        76a9140610bf8a4c4a5b2852b76265318fb9aa6969201988ac
+    # --------------------- 2nd output --------------------
+    e601050100000000 # value
+    17 # script lenght
+        a914614edbf7113f8d77b38976ef0092d2573417820c87
+
+00000000 # timelock
