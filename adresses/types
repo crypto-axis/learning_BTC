@@ -9,4 +9,7 @@ several types of address:
   -pay to script hash (p2sh) (can use both compressed/uncompressed public key hash)
   
   
-  -segwit
+  -segwit: (for both case the public key MUST be compressed type)
+    -pay to witness public key hash (p2wpkh)
+    -pay to witness script hash (p2wsh)
+     (both can be send inside a p2sh tx)
