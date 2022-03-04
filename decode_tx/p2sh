@@ -62,7 +62,7 @@
             21 # pubkey lenght
                 03ec106f147e75c0effb610cd42d4d229ac5cf24c0b55ae569404dbab880f7f1f9
             52  # OP_2
-            ae  # OP_CHECKSIG
+            ae  # OP_CHECKMULTISIG
     ffffffff
 02
     # --------------------- 1st output --------------------
