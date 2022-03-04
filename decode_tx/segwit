@@ -1,0 +1,159 @@
+#------------------------------SEGWIT--------------------------- bd2f96ace3c67902d961c6dc94cbc15a7eb979150192c091a3d8731e74dbf071
+01000000#version
+00#segwit marker
+01#segwit flag
+05 # input number
+    # --------------------------------- input 1 --------------------------------------
+    671bf037c267ea93a30a2d612d0e87eb63529de7aff213e2e161a70103ae0907 # 1st tx hash
+    16000000 #input index
+    23#script lenght
+    220020d0a46bf0814c1edf7d9a76aaf4302683951efbe81c356aede318c2c570762814 # script
+    ffffffff #sequence
+    # --------------------------------- input 2 --------------------------------------
+    3637d78277fa4cb7845f540c201f81c5a3dd01128a48f9ddd0be449c74267043# 2nd tx hash
+    4b000000# input index
+    23#script lenght
+    2200208abe8487aba66b0492781eea7a163f4d140c81321cf55970dee77c8fe93d2130 # script
+    ffffffff
+    # --------------------------------- input 3 --------------------------------------
+    2ddf0a19c9bb4e9cf90e878665eece8073d04e072dc6af8f54a822a00acfcb77# 3rd tx hash
+    29000000# input index
+    23#script lenght
+    22002006fe5040fe0d0b2aa0e3e54196781497d4296f450eb0b221040894a506ef5e6b# script
+    ffffffff
+    # --------------------------------- input 4 --------------------------------------
+    d8b9b4bb2db00f157f8324111ac5c204f9fbd8eddae0e194389c490476c41bab# 4th tx hash
+    bd000000# input index
+    23#script lenght
+    2200203b970e5f57fa48f0a93f673f0672e05e756da7c4d9000d2aa3eff0493ca7852a# script
+    ffffffff
+    # --------------------------------- input 5 --------------------------------------
+    3d599b2576820f74cdd99e1cdcb51078a5c45e7a6e2fdf3b7c1389488c16b1e3# 5th tx hash
+    03000000# input index
+    23#script lenght
+    22002095a7661eb388986f60b8c294c162d4d0ed5daedddb4fd92a056f037732bcc5a2# script
+    ffffffff
+
+02 # nb of output
+    # -----------------------------output 1 --------------------------------
+    21e9010000000000 # value
+    22#script lenght
+    00205c678da5a6a8a5642b1baa0196f39a5e9e513b5f61ab7aa79928f630de843336 # script
+    # -----------------------------output 2 --------------------------------
+    407a070000000000 # value
+    17#script lenght
+    a914375b11339fbe1c0d6e57f301c7b3a62e96d8944b87#script
+
+# ----------------------- WITNESSes -----------------------------
+
+# ------------- witness for input 1 --------------------
+05 # number of stack items
+    00 # OP_0
+    47 # signature lenght
+        30440220217b9865076aa3103b1f769f83c70a7d75c0c9e7369fce735957a97c899f5cab022003c18eb4235bd0e611c10e83f29bef9fcb23314d500b47abc211bb2bfa3a136801
+    48 # signature lenght
+        3045022100d5599144740e6f8d87f70b9698a9d0747d660919f12396e105998cd2a55147ef022007e1a488df23225ba1ce87f4983fde03a7696a0a0b2ddb4f0a182346e777d15b01
+    48 # signature lenght
+        3045022100898f10ccb6c8a0682aab01297af41a2d8a744f56688103d19b97b3d9dedbcbae022038639d3b07d4f5dfdb3d11634c2669e14c18a2766ac68340d50d5f8d88f28a7401
+    8b # script lenght
+        53 # OP_3
+        21  # pub key lenght
+            021f1957dc99114cf9fff97c5a9dcc48f6567042164614c6fab67f02bfdfdbe634
+        21  # pub key lenght
+            0227084811db0bd710c001341395fbf101de8bf5fbec90ae5f89000d279fd8aac8
+        21  # pub key lenght
+            029576db4b19f1f6943698bf5784ab89ed027331641564e36d0194ef2ae0a287e2
+        21  # pub key lenght
+            02c2dc9c0343e6bd0fa6d36fdc091752bc9eec854bd6685bbfabfeb45d038b5858
+        54  # OP_4
+        ae  # OP_CHECKMULTISIG
+
+# ------------- witness for input 2 --------------------
+05 # number of stack items
+    00 # OP_0
+    47 # signature lenght
+        304402202f75adc4d346c78896507bd5692c8ef307082e82ff0a4b03e68480116412939d022029a8e2c8d621abe672749427e91c1fd75e1efd33374fee01a7d50b4b9ec0f42001
+    47 # signature lenght
+        3044022000e0e37d3740f2c9d29c187674d3c1606c1c911f8ef3dc8f805042965f3a414f022022f8d98ad2ed4e1e47b40ac2e6ab9f10a5339455faa723e7b12994c3d5183ec901
+    47 # signature lenght
+        304402200cd0e758615135bc53c749c7d377a8bdc11e81609c014191c809c39bc725d07602202d99847bb84dbaa5469a8e6a950d2a19a3cae9b84b94b9c4a89d1001d6b4283401
+    8b # script lenght
+        53 # OP3
+        21 # pub key lenght
+            0209286890b83ad84fd789cac0f797587792a81b2e3901efac741c0bb615d49032
+        21 # pub key lenght
+            031ab02a7cb3061de0f62c41110615a58d368dbdb10769582911d3bd8291c688b0
+        21 # pub key lenght
+            0334a7806a7bd5a643ae0893334b1d482e20ef658007ba95d223b59b518a4f3556
+        21 # pub key lenght
+            03cc21484958719157ed3385790b90f747b3b7733aef80d5234c856640a02a5834
+        54 # OP_4
+        ae  # OP_CHECKMULTISIG
+
+# ------------- witness for input 3 --------------------
+05 # number of stack items
+    00 # OP_0
+    48 # signature lenght
+        3045022100bfd72a285703453df6e45be3c1ea8fa6507239b186157e4b069a29a995cd471502206b52dcb93fb960acf46bdb2c4bff9b84c6dea0221c18317a6ac818be2c89611a01
+    47 # signature lenght
+        3044022006f681b61575532baab14a0e7464674aac610caa83a45d173247b27803d307c102202aebfe0d9b6a2dfbc0848da4f67d1c8fde0add51e26757d022f86fe7272abaf701
+    48 # signature lenght
+        3045022100edeeef2afd1602e7ff4d074f7c5eb77cd1338b4c067512af3af049600017b23e022057765eb8a0a4bce5c67855e4ea9ecdf1105c746de4b012cfbf34c25e845b096401
+    8b # script lenght
+        53 # OP3
+        21 # pub key lenght
+            028277fa698387f2942f5d9b4cacf2e8288f2edca1e6f4cda142cd41aa87505ff2
+        21 # pub key lenght
+            02b3263b1e1f2ed72f974275b4f77844333b9e05f592bf94f3ca464dc4d037575f
+        21 # pub key lenght
+            02e4b8ed48bf5898f385af0b6af06cda94de17055448fcccfe5c7d756c260fd2f1
+        21 # pub key lenght
+            03a50c7eb809fbc9c8380beddb21995ee7625574fa6b616369bc742feb3b9c13ed
+        54 # OP_4
+        ae  # OP_CHECKMULTISIG
+
+# ------------- witness for input 4 --------------------
+05 # number of stack items
+    00 # OP_0
+    47 # signature lenght
+        304402204fba64a0087f6201443043a6edce0216165a866b5df267823de3694990fe774502205ecdaebde003958d2f0b9922be6b2fd08940a2f71580646d0bd376df51b9d87401
+    47 # signature lenght
+        304402207b60f1941fd3a3c473e417f55af3f4335889683cbfd4c8d77d7a77f614d105b10220790cc68357ad7b6f3eb13f3fc56825e0480d798642c844b79e1ded5f6cc6aac401
+    48 # signature lenght
+        3045022100f2858850b4c8e8ba4f53cde8bbd75b00afadf93a8fddbc984ded82a33ac051aa022016e972459b4fc6d6c531904398a71b8986e527875896a2fe1711daebd59f347d01
+    8b # script lenght
+        53 # OP3
+        21 # pub key lenght
+            0294e1b05e0a17f882056187d8697c812bf6602cf4bcd0a497418f3d87f2d9e8e0
+        21 # pub key lenght
+            030a7fd7eaa52ecb657f63e00ee02cd8fd0fdde921e5a37222f096d97ae9f1d2ce
+        21 # pub key lenght
+            0384c1dbff762776191e9060a3fef1282e4f6478262b66f48baf02d5152920d3a9
+        21 # pub key lenght
+            038a8d4ecf8d74cd2b2cf634deeb7d94e72a20b12f11a420626844922f34fd4ab9
+        54 # OP_4
+        ae  # OP_CHECKMULTISIG
+
+# ------------- witness for input 5 --------------------
+05 # number of stack items
+    00 # OP_0
+    47 # signature lenght
+        304402207e1053f293728359cdf42b080ec4c367e1dc25e55379dc2f6405b5bacd2335b102203cca2b3cb63ecd82ea61b07647e878b52e91f1e49a138523040b22901a0491b801
+    47 # signature lenght
+        3044022039430d9ba645f4967e0c7f49b779e5fc88277e092e2b7a0b73bc56c78764b54502206eb3310bdc34860ba595286e78bcca21e27931efc4fca8193b81a22b4ff83b1901
+    47 # signature lenght
+        304402204d923d25c49ab1f55a971ed7a9607cd463d762a5cdf2b65aba80fb242e7e747502205b5632a539422aee4f06b4586fb9fb46a8f2619ea3770ab777f09832b49cce8e01
+    8b # script lenght
+        53 # OP3
+        21 # pub key lenght
+        02063add092d0c04af5b6b36897f1ba282240319c7c2ab654e4e14a026ef50eb2c
+        21 # pub key lenght
+        0263d0d5243280ddd2bb33974c749ed0144a265c403e40474dff0bb90f5dbe43f9
+        21 # pub key lenght
+        033b61b59b930b605179d270f381ebf5ac233315a57e52a6a55c3aea9c148a1a56
+        21 # pub key lenght
+        038c3fd7bcab29ac1627426cb23a15f1387177b7992ef156fba3f77133012e402c
+        54 # OP_4
+        ae  # OP_CHECKMULTISIG
+
+00000000 # timelock
