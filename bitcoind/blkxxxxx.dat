@@ -1,0 +1,5 @@
+serialization of the block files:
+
+4 bytes: Magic bytes (blockchain identifier: bitcoin,litecoin, etc)
+4 bytes: Encodes size N of next upcoming block.(the byte size of the block)
+N bytes: Block encoded in standard format (with header)
