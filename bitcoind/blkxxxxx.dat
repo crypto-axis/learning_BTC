@@ -4,7 +4,7 @@ serialization of the block files:
 4 bytes: Magic bytes (blockchain identifier: bitcoin,litecoin, etc)
 4 bytes: Encodes size N of file
 
-#-------------- block header --------------- ( 80 Bytes)
+#-------------- block --------------- ( 80 Bytes)
 
 4 Bytes: Version
 32 Bytes : Last block hash
