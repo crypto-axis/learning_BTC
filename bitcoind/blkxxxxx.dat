@@ -1,10 +1,10 @@
 serialization of the block files:
 
-#-------------- file header ---------------
+#-------------- Block 0 ---------------
 4 bytes: Magic bytes (blockchain identifier: bitcoin,litecoin, etc)
-4 bytes: Encodes size N of file
+4 bytes: Encodes size N of block
 
-#-------------- block --------------- ( 80 Bytes)
+#-------------- block header --------------- ( 80 Bytes)
 
 4 Bytes: Version
 32 Bytes : Last block hash
@@ -12,6 +12,30 @@ serialization of the block files:
 4 Bytes :  timestamp
 4 Bytes : difficulty target
 4 Bytes : nonce
+
+#-------------- block Tx ---------------
+
+-- Coinbase Tx --
+-- Tx 1 --
+-- Tx 2 --
+-- Tx 3 --
+...
+-- Tx n --
+
+#-------------- Block 1 ---------------
+4 bytes: Magic bytes (blockchain identifier: bitcoin,litecoin, etc)
+4 bytes: Encodes size N of block
+
+#-------------- block header --------------- ( 80 Bytes)
+
+4 Bytes: Version
+32 Bytes : Last block hash
+32 Bytes : Merkle root
+4 Bytes :  timestamp
+4 Bytes : difficulty target
+4 Bytes : nonce
+
+#-------------- block Tx ---------------
 
 -- Coinbase Tx --
 -- Tx 1 --
